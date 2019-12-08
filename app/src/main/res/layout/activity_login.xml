@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/tvJudullog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="@color/judullog"
+        android:textStyle="bold"
+        android:text="MEETSPACE" />
+
+    <TextView
+        android:id="@+id/tvSubJudullog"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:shadowColor="@color/tranparent"
+        android:shadowRadius="3"
+        android:shadowDy="5"
+        android:textColor="@color/judullog"
+        android:layout_height="wrap_content"
+        android:text="Meeting Space Solution" />
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="NIM" />
+
+    <EditText
+        android:id="@+id/etNim"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tvPass"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:ems="10"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/btnLog"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/bgbtnlog"
+        android:textColor="@color/judul"
+        android:layout_marginTop="50dp"
+        android:text="LOGIN" />
+</LinearLayout>
